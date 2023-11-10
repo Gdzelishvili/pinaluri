@@ -705,7 +705,7 @@ footer {
   color: #ffffff;
 }
 
-
+/* page 3 start */
 
 /* contact cover section */
 
@@ -729,6 +729,7 @@ footer {
     top: 208px;
     right: 718px;
     padding: 24px 30px;
+    width: 500px;  
   }
   
   .contact_form_h2 {
@@ -752,6 +753,7 @@ footer {
     outline: none;
     background-color: transparent;
     color: #ffffff;
+    width: 190px;
   }
   
   .name_and_email::placeholder {
@@ -834,10 +836,10 @@ footer {
   }
   
   .info_p {
-    margin-bottom: 32px;
     font-family: Inter, sans-serif;
     font-size: 16px;
     font-weight: 300;
+    margin-bottom: 32px;
     line-height: 19px;
     color: #623932;
   }
@@ -847,3 +849,6 @@ footer {
     height: 320px;
   }
   
+ .width_1{
+    width: 155px;
+ }
