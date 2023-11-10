@@ -205,8 +205,8 @@
     position: fixed;
     top: 98px;
     left: -100%;
-    background-color: #b53b1b;
-    transition: 0.5s linear;
+    background-color: rgba(64, 33, 1, 0.8);
+    transition: 0.4s linear;
   }
 
   .header_ul {
