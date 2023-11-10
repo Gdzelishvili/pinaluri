@@ -704,3 +704,146 @@ footer {
   background-color: #b53b1b;
   color: #ffffff;
 }
+
+
+
+/* contact cover section */
+
+.contact_cover_sec {
+    height: 720px;
+    background-image: url(../images/page\ 3\ cover\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .contact_form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: rgba(64, 33, 1, 0.73);
+    box-shadow: -1px -1px 4px 0px rgba(255, 255, 255, 1);
+    top: 208px;
+    right: 718px;
+    padding: 24px 30px;
+  }
+  
+  .contact_form_h2 {
+    margin-bottom: 40px;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #ffffff;
+  }
+  
+  .name_and_email_div {
+    display: flex;
+    column-gap: 60px;
+  }
+  
+  .name_and_email {
+    padding: 12px 0 12px 8px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+  .name_and_email::placeholder {
+    color: rgba(255, 255, 255, 0.76);
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+  
+  .contact_textarea {
+    margin-top: 36px;
+    margin-bottom: 36px;
+    padding: 8px 0 71px 8px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+  .contact_textarea::placeholder {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.76);
+  }
+  
+  .contact_form_submit {
+    border: none;
+    border-radius: 10px;
+    background: rgba(213, 144, 110, 1);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #ffffff;
+    width: 147px;
+    padding: 19px 42px;
+  }
+  
+
+  
+  /* contact map section  */
+  
+  .contact_map_section {
+    display: flex;
+    justify-content: center;
+    margin: 160px auto;
+  }
+  
+  .map_main_div {
+    padding-left: 20px;
+    background-color: rgba(213, 144, 110, 0.3);
+  }
+  
+  .contact_h2 {
+    color: #402101;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  
+  .contact_info_main_div1 {
+    display: flex;
+    column-gap: 210px;
+  }
+  
+  .contact_info_p {
+    margin-bottom: 7px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #b53b1b;
+  }
+  
+  .info_p {
+    margin-bottom: 32px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #623932;
+  }
+  
+  iframe {
+    width: 815px;
+    height: 320px;
+  }
+  
