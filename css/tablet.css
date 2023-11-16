@@ -138,76 +138,84 @@
   .contact_form {
     left: 24px;
   }
-
-
+  .map_main_div{
+    width: 90%;
+  }
+  .mapp{
+    width: 100%;
+  }
 }
 
-@media(max-width:550px) {
+@media (max-width: 550px) {
+  /* p1 cover section  */
 
-    /* p1 cover section  */
+  .sec5_h2 {
+    font-size: 24px;
+    text-align: center;
+  }
 
-    .sec5_h2 {
-        font-size: 24px;
-        text-align: center;
-    }
+  .sec5_input {
+    width: 230px;
+  }
 
-    .sec5_input {
-        width: 230px;
-    }
+  /* p2 shop section */
 
-    /* p2 shop section */
+  .shop_t {
+    font-size: 16px;
+  }
 
-    .shop_t {
-        font-size: 16px;
-    }
+  .sort_button {
+    padding: 8px;
+    font-size: 16px;
+  }
 
-    .sort_button {
-        padding: 8px;
-        font-size: 16px;
-    }
+  .page_numbers {
+    width: 40px;
+    height: 40px;
+  }
 
-    .page_numbers {
-        width: 40px;
-        height: 40px;
-    }
+  /* contact background image section */
 
-    /* contact background image section */
+  .contact_cover_sec {
+    height: 560px;
+  }
 
-    .contact_cover_sec {
-        height: 560px;
-    }
+  .contact_form {
+    left: 16px;
+    top: 128px;
+    width: calc(432 / 480 * 100%);
+  }
 
-    .contact_form {
-        left: 16px;
-        top: 128px;
-        width: calc(432 / 480 * 100%);
-    }
+  .contact_form_h2 {
+    font-size: 32px;
+  }
 
-    .contact_form_h2 {
-        font-size: 32px;
-    }
+  .name_and_email_div {
+    column-gap: 20px;
+  }
 
-    .name_and_email_div {
-        column-gap: 20px;
-    }
+  .name_and_email {
+    width: 100%;
+  }
 
-    .name_and_email {
-        width: 100%;
-    }
+  /* gape 3 contact text area */
+  .contact_textarea {
+    height: 96px;
+  }
 
-    /* page 3 contact  section */
-    
-    .contact_map_section {
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }
+  /* page 3 contact  section */
 
-    .contact_h2 {
-        margin: 0;
-        font-size: 32px;
-    }
+  .contact_map_section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 
-    .contact_info_main_div1 {
-        margin: 24px 30px;
-    }
+  .contact_h2 {
+    margin: 0;
+    font-size: 32px;
+  }
+
+  .contact_info_main_div1 {
+    margin: 24px 30px;
+  }
 }
